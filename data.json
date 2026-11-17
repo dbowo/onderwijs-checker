@@ -1,11 +1,58 @@
 {
- "bijgewerkt": null,
+ "bijgewerkt": "2026-11-17T15:26:53+00:00",
  "artikels": [
-  {"site":"VRT NWS","titel":"De Lijn schrapt busritten voor leerlingen buitengewoon onderwijs, scholen maken zich zorgen","url":"https://www.vrt.be/vrtnws/nl/2026/06/16/de-lijn-schrapt-ritten-leerlingenvervoer-buitengewoon-onderwijs/","datum":"2026-06-16"},
-  {"site":"VRT NWS","titel":"Vlaamse regering gaat lerarenopleiding hervormen","url":"https://www.vrt.be/vrtnws/nl/2026/03/06/vlaamse-regering-gaat-lerarenopleiding-hervormen-nodig-om-onde/","datum":"2026-03-06"}
+  {
+   "site": "VRT NWS",
+   "titel": "Ouders voeren actie in Wiemesmeer voor veiligere oversteekplaats aan school: \"We willen niet wachten op een ongeval\"",
+   "url": "https://images.vrt.be/vrtnws_share/2026/11/17/8d76e9eb-3d8c-4c0c-9ad0-be53c860e446.jpg",
+   "datum": "2026-11-17"
+  },
+  {
+   "site": "VRT NWS",
+   "titel": "Provincie Limburg hervormt provinciaal onderwijs na fraude: nieuwe leidingstructuur en strengere controles",
+   "url": "https://images.vrt.be/vrtnws_share/2025/02/06/6e0ba53a-c123-4cfd-b7ea-3a1e1bb460de.jpg",
+   "datum": "2026-11-17"
+  },
+  {
+   "site": "HLN",
+   "titel": "Amper 2% middelbare scholieren draagt nog fluohesje op de fiets naar school",
+   "url": "https://www.hln.be/binnenland/amper-2-middelbare-scholieren-draagt-nog-fluohesje-op-de-fiets-naar-school~a84f800f/",
+   "datum": "2026-11-16"
+  }
  ],
  "onderwerpen": [
-  {"datum":"2026-06-16","onderwerp":"De Lijn schrapt busritten voor leerlingen buitengewoon onderwijs, scholen maken zich zorgen","links":[{"site":"VRT NWS","url":"https://www.vrt.be/vrtnws/nl/2026/06/16/de-lijn-schrapt-ritten-leerlingenvervoer-buitengewoon-onderwijs/","titel":""}]},
-  {"datum":"2026-03-06","onderwerp":"Vlaamse regering gaat lerarenopleiding hervormen","links":[{"site":"VRT NWS","url":"https://www.vrt.be/vrtnws/nl/2026/03/06/vlaamse-regering-gaat-lerarenopleiding-hervormen-nodig-om-onde/","titel":""}]}
+  {
+   "datum": "2026-11-17",
+   "onderwerp": "Ouders voeren actie in Wiemesmeer voor veiligere oversteekplaats aan school: \"We willen niet wachten op een ongeval\"",
+   "links": [
+    {
+     "site": "VRT NWS",
+     "url": "https://images.vrt.be/vrtnws_share/2026/11/17/8d76e9eb-3d8c-4c0c-9ad0-be53c860e446.jpg",
+     "titel": "Ouders voeren actie in Wiemesmeer voor veiligere oversteekplaats aan school: \"We willen niet wachten op een ongeval\""
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-17",
+   "onderwerp": "Provincie Limburg hervormt provinciaal onderwijs na fraude: nieuwe leidingstructuur en strengere controles",
+   "links": [
+    {
+     "site": "VRT NWS",
+     "url": "https://images.vrt.be/vrtnws_share/2025/02/06/6e0ba53a-c123-4cfd-b7ea-3a1e1bb460de.jpg",
+     "titel": "Provincie Limburg hervormt provinciaal onderwijs na fraude: nieuwe leidingstructuur en strengere controles"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-16",
+   "onderwerp": "Amper 2% middelbare scholieren draagt nog fluohesje op de fiets naar school",
+   "links": [
+    {
+     "site": "HLN",
+     "url": "https://www.hln.be/binnenland/amper-2-middelbare-scholieren-draagt-nog-fluohesje-op-de-fiets-naar-school~a84f800f/",
+     "titel": "Amper 2% middelbare scholieren draagt nog fluohesje op de fiets naar school"
+    }
+   ]
+  }
  ]
 }
