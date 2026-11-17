@@ -19,8 +19,8 @@ BEWAAR_DAGEN = 90
 FEEDS = {
     "VRT NWS":    ["https://www.vrt.be/vrtnws/nl.rss.articles.xml"],
     "HLN":        ["https://www.hln.be/rss.xml", "https://www.hln.be/binnenland/rss.xml"],
-    "Nieuwsblad": ["https://www.nieuwsblad.be/rss.xml", "https://www.nieuwsblad.be/binnenland/rss.xml"],
-    "GVA":        ["https://www.gva.be/rss.xml", "https://www.gva.be/binnenland/rss.xml"],
+    "Nieuwsblad": ["https://www.nieuwsblad.be/rss", "https://www.nieuwsblad.be/binnenland/rss"],
+    "GVA":        ["https://www.gva.be/rss", "https://www.gva.be/binnenland/rss"],
 }
 
 INCLUDE = re.compile(
@@ -62,7 +62,8 @@ def lees_feed(url):
         link = ""
         if "link" in d:
             link = (d["link"].text or d["link"].attrib.get("href", "")).strip()
-        samen = schoon((d.get("description") or d.get("summary") or d.get("encoded") or ET.Element("x")).text)
+        bron = next((d[k] for k in ("description", "summary", "encoded", "content") if k in d), None)
+        samen = schoon(bron.text) if bron is not None else ""
         raw = None
         for k in ("pubDate", "published", "updated", "date"):
             if k in d and d[k].text:
