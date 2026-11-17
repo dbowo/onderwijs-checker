@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-17T15:26:53+00:00",
+ "bijgewerkt": "2026-11-17T15:32:39+00:00",
  "artikels": [
   {
    "site": "VRT NWS",
@@ -14,6 +14,24 @@
    "datum": "2026-11-17"
   },
   {
+   "site": "Nieuwsblad",
+   "titel": "Sverre Van Britsom maakt met eindwerk rond 'lopen met beleving' kans op Bachelorprijs én Klasseprijs",
+   "url": "https://www.nieuwsblad.be/regio/oost-vlaanderen/denderregio/zele/sverre-van-britsom-maakt-met-eindwerk-rond-lopen-met-beleving-kans-op-bachelorprijs-en-klasseprijs/164659074.html",
+   "datum": "2026-11-17"
+  },
+  {
+   "site": "GVA",
+   "titel": "“Een hele verademing”: kleuterjuffen van Hoedjes Van Papier blij met nieuw schoolgebouw",
+   "url": "https://www.gva.be/regio/antwerpen/regio-antwerpen/antwerpen/deurne/een-hele-verademing-kleuterjuffen-van-hoedjes-van-papier-blij-met-nieuw-schoolgebouw/164667525.html",
+   "datum": "2026-11-17"
+  },
+  {
+   "site": "GVA",
+   "titel": "TSM organiseert benefietconcert met Radio Botanique en schoolkoor: “Opbrengst gaat naar De Warmste Week”",
+   "url": "https://www.gva.be/regio/antwerpen/rivierenland/mechelen/tsm-organiseert-benefietconcert-met-radio-botanique-en-schoolkoor-opbrengst-gaat-naar-de-warmste-week/164680964.html",
+   "datum": "2026-11-17"
+  },
+  {
    "site": "HLN",
    "titel": "Amper 2% middelbare scholieren draagt nog fluohesje op de fiets naar school",
    "url": "https://www.hln.be/binnenland/amper-2-middelbare-scholieren-draagt-nog-fluohesje-op-de-fiets-naar-school~a84f800f/",
@@ -21,6 +39,39 @@
   }
  ],
  "onderwerpen": [
+  {
+   "datum": "2026-11-17",
+   "onderwerp": "“Een hele verademing”: kleuterjuffen van Hoedjes Van Papier blij met nieuw schoolgebouw",
+   "links": [
+    {
+     "site": "GVA",
+     "url": "https://www.gva.be/regio/antwerpen/regio-antwerpen/antwerpen/deurne/een-hele-verademing-kleuterjuffen-van-hoedjes-van-papier-blij-met-nieuw-schoolgebouw/164667525.html",
+     "titel": "“Een hele verademing”: kleuterjuffen van Hoedjes Van Papier blij met nieuw schoolgebouw"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-17",
+   "onderwerp": "TSM organiseert benefietconcert met Radio Botanique en schoolkoor: “Opbrengst gaat naar De Warmste Week”",
+   "links": [
+    {
+     "site": "GVA",
+     "url": "https://www.gva.be/regio/antwerpen/rivierenland/mechelen/tsm-organiseert-benefietconcert-met-radio-botanique-en-schoolkoor-opbrengst-gaat-naar-de-warmste-week/164680964.html",
+     "titel": "TSM organiseert benefietconcert met Radio Botanique en schoolkoor: “Opbrengst gaat naar De Warmste Week”"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-17",
+   "onderwerp": "Sverre Van Britsom maakt met eindwerk rond 'lopen met beleving' kans op Bachelorprijs én Klasseprijs",
+   "links": [
+    {
+     "site": "Nieuwsblad",
+     "url": "https://www.nieuwsblad.be/regio/oost-vlaanderen/denderregio/zele/sverre-van-britsom-maakt-met-eindwerk-rond-lopen-met-beleving-kans-op-bachelorprijs-en-klasseprijs/164659074.html",
+     "titel": "Sverre Van Britsom maakt met eindwerk rond 'lopen met beleving' kans op Bachelorprijs én Klasseprijs"
+    }
+   ]
+  },
   {
    "datum": "2026-11-17",
    "onderwerp": "Ouders voeren actie in Wiemesmeer voor veiligere oversteekplaats aan school: \"We willen niet wachten op een ongeval\"",
