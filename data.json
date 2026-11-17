@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-17T18:08:25+00:00",
+ "bijgewerkt": "2026-11-17T20:59:30+00:00",
  "artikels": [
   {
    "site": "VRT NWS",
@@ -29,6 +29,36 @@
    "site": "GVA",
    "titel": "TSM organiseert benefietconcert met Radio Botanique en schoolkoor: “Opbrengst gaat naar De Warmste Week”",
    "url": "https://www.gva.be/regio/antwerpen/rivierenland/mechelen/tsm-organiseert-benefietconcert-met-radio-botanique-en-schoolkoor-opbrengst-gaat-naar-de-warmste-week/164680964.html",
+   "datum": "2026-11-17"
+  },
+  {
+   "site": "HLN",
+   "titel": "Vlaamse studenten betogen mee tegen duurder onderwijs. “Vrije tijd? Ik moet studies combineren met drie werkdagen per week”",
+   "url": "https://www.hln.be/binnenland/vlaamse-studenten-betogen-mee-tegen-duurder-onderwijs-vrije-tijd-ik-moet-studies-combineren-met-drie-werkdagen-per-week~ac18d342/",
+   "datum": "2026-11-17"
+  },
+  {
+   "site": "Nieuwsblad",
+   "titel": "Voerense scholen kunnen voortaan een beroep doen op de schoolagent",
+   "url": "https://www.nieuwsblad.be/regio/limburg/voeren/voerense-scholen-kunnen-voortaan-een-beroep-doen-op-de-schoolagent/164685081.html",
+   "datum": "2026-11-17"
+  },
+  {
+   "site": "Nieuwsblad",
+   "titel": "“De nood was hoog”: centraal welkomspunt moet anderstalige nieuwkomers sterk doen starten in basisonderwijs",
+   "url": "https://www.nieuwsblad.be/regio/antwerpen/regio-antwerpen/antwerpen/de-nood-was-hoog-centraal-welkomspunt-moet-anderstalige-nieuwkomers-sterk-doen-starten-in-basisonderwijs/164707024.html",
+   "datum": "2026-11-17"
+  },
+  {
+   "site": "GVA",
+   "titel": "“De nood was hoog”: centraal welkomspunt moet anderstalige nieuwkomers sterk doen starten in basisonderwijs",
+   "url": "https://www.gva.be/regio/antwerpen/regio-antwerpen/antwerpen/de-nood-was-hoog-centraal-welkomspunt-moet-anderstalige-nieuwkomers-sterk-doen-starten-in-basisonderwijs/164700172.html",
+   "datum": "2026-11-17"
+  },
+  {
+   "site": "GVA",
+   "titel": "N-VA vreest parkeer- en mobiliteitsdruk toekomstige LAB-school",
+   "url": "https://www.gva.be/regio/antwerpen/regio-antwerpen/ranst/n-va-vreest-parkeer-en-mobiliteitsdruk-toekomstige-lab-school/164704976.html",
    "datum": "2026-11-17"
   },
   {
@@ -63,12 +93,61 @@
   },
   {
    "datum": "2026-11-17",
+   "onderwerp": "“De nood was hoog”: centraal welkomspunt moet anderstalige nieuwkomers sterk doen starten in basisonderwijs",
+   "links": [
+    {
+     "site": "GVA",
+     "url": "https://www.gva.be/regio/antwerpen/regio-antwerpen/antwerpen/de-nood-was-hoog-centraal-welkomspunt-moet-anderstalige-nieuwkomers-sterk-doen-starten-in-basisonderwijs/164700172.html",
+     "titel": "“De nood was hoog”: centraal welkomspunt moet anderstalige nieuwkomers sterk doen starten in basisonderwijs"
+    },
+    {
+     "site": "Nieuwsblad",
+     "url": "https://www.nieuwsblad.be/regio/antwerpen/regio-antwerpen/antwerpen/de-nood-was-hoog-centraal-welkomspunt-moet-anderstalige-nieuwkomers-sterk-doen-starten-in-basisonderwijs/164707024.html",
+     "titel": "“De nood was hoog”: centraal welkomspunt moet anderstalige nieuwkomers sterk doen starten in basisonderwijs"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-17",
+   "onderwerp": "N-VA vreest parkeer- en mobiliteitsdruk toekomstige LAB-school",
+   "links": [
+    {
+     "site": "GVA",
+     "url": "https://www.gva.be/regio/antwerpen/regio-antwerpen/ranst/n-va-vreest-parkeer-en-mobiliteitsdruk-toekomstige-lab-school/164704976.html",
+     "titel": "N-VA vreest parkeer- en mobiliteitsdruk toekomstige LAB-school"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-17",
+   "onderwerp": "Vlaamse studenten betogen mee tegen duurder onderwijs. “Vrije tijd? Ik moet studies combineren met drie werkdagen per week”",
+   "links": [
+    {
+     "site": "HLN",
+     "url": "https://www.hln.be/binnenland/vlaamse-studenten-betogen-mee-tegen-duurder-onderwijs-vrije-tijd-ik-moet-studies-combineren-met-drie-werkdagen-per-week~ac18d342/",
+     "titel": "Vlaamse studenten betogen mee tegen duurder onderwijs. “Vrije tijd? Ik moet studies combineren met drie werkdagen per week”"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-17",
    "onderwerp": "Sverre Van Britsom maakt met eindwerk rond 'lopen met beleving' kans op Bachelorprijs én Klasseprijs",
    "links": [
     {
      "site": "Nieuwsblad",
      "url": "https://www.nieuwsblad.be/regio/oost-vlaanderen/denderregio/zele/sverre-van-britsom-maakt-met-eindwerk-rond-lopen-met-beleving-kans-op-bachelorprijs-en-klasseprijs/164659074.html",
      "titel": "Sverre Van Britsom maakt met eindwerk rond 'lopen met beleving' kans op Bachelorprijs én Klasseprijs"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-17",
+   "onderwerp": "Voerense scholen kunnen voortaan een beroep doen op de schoolagent",
+   "links": [
+    {
+     "site": "Nieuwsblad",
+     "url": "https://www.nieuwsblad.be/regio/limburg/voeren/voerense-scholen-kunnen-voortaan-een-beroep-doen-op-de-schoolagent/164685081.html",
+     "titel": "Voerense scholen kunnen voortaan een beroep doen op de schoolagent"
     }
    ]
   },
