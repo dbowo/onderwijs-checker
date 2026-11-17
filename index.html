@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Is het onderwijs vandaag weer in het nieuws?</title>
+<style>
+:root{
+  --bg:#faf7f0; --card:#ffffff; --ink:#1d2433; --muted:#5d6678; --line:#e4dfd2;
+  --accent:#c2410c; --accent-soft:#fdeadd; --warn-bg:#fff4d6; --warn-ink:#6b4a00;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14171f; --card:#1d222d; --ink:#eef0f5; --muted:#a2a9b8; --line:#2d3444;
+    --accent:#fb923c; --accent-soft:#3a2615; --warn-bg:#3a3012; --warn-ink:#f3d98a;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14171f; --card:#1d222d; --ink:#eef0f5; --muted:#a2a9b8; --line:#2d3444;
+  --accent:#fb923c; --accent-soft:#3a2615; --warn-bg:#3a3012; --warn-ink:#f3d98a;
+  color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:17px/1.55 Georgia,"Times New Roman",serif}
+main{max-width:720px;margin:0 auto;padding:32px 20px 56px}
+h1{font-size:1.15rem;font-weight:normal;color:var(--muted);margin:0 0 20px;
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.02em}
+.counter{background:var(--card);border:1px solid var(--line);border-radius:18px;
+  padding:32px 24px;text-align:center}
+.num{font-size:clamp(5rem,26vw,9rem);line-height:1;font-weight:bold;color:var(--accent)}
+.label{font-size:1.3rem;margin-top:8px}
+.sub{color:var(--muted);font-size:.95rem;margin-top:6px;font-family:system-ui,sans-serif}
+.banner{background:var(--warn-bg);color:var(--warn-ink);border-radius:10px;
+  padding:12px 14px;margin:20px 0 0;font:.9rem/1.45 system-ui,sans-serif}
+h2{font-size:1.2rem;margin:40px 0 12px}
+.topic{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:16px 18px;margin-bottom:12px}
+.topic .date{font:.8rem system-ui,sans-serif;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.topic h3{margin:4px 0 10px;font-size:1.05rem}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.links a{display:inline-block;padding:5px 11px;border-radius:999px;background:var(--accent-soft);
+  color:var(--accent);text-decoration:none;font:.85rem system-ui,sans-serif}
+.links a:hover,.links a:focus-visible{text-decoration:underline}
+footer{margin-top:36px;color:var(--muted);font:.85rem/1.5 system-ui,sans-serif}
+</style>
+</head>
+<body>
+<main>
+  <h1>Onderwijs in het nieuws? Een telling.</h1>
+
+  <section class="counter" aria-live="polite">
+    <div class="num" id="num">–</div>
+    <div class="label" id="label"></div>
+    <div class="sub" id="sub"></div>
+  </section>
+
+  <div class="banner" id="banner" hidden></div>
+
+  <h2>De laatste vijf onderwerpen</h2>
+  <div id="topics"></div>
+
+  <footer>
+    Bronnen: vrtnws.be, hln.be, nieuwsblad.be en gva.be. Een onderwerp dat op meerdere sites verscheen, staat hier één keer, met een link per site.
+  </footer>
+</main>
+
+<script>
+const MS = 86400000;
+const el = id => document.getElementById(id);
+const toDay = s => { const [y,m,d] = s.split("-").map(Number); return Date.UTC(y, m-1, d); };
+const vandaag = toDay(new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Brussels" }));
+const fmt = s => new Date(toDay(s)).toLocaleDateString("nl-BE", { day:"numeric", month:"long", year:"numeric", timeZone:"UTC" });
+
+function waarschuw(tekst) { const b = el("banner"); b.hidden = false; b.textContent = tekst; }
+
+function toon(data) {
+  const items = (data.onderwerpen || []).slice().sort((a,b) => b.datum.localeCompare(a.datum));
+  if (items.length) {
+    const days = Math.max(0, Math.round((vandaag - toDay(items[0].datum)) / MS));
+    el("num").textContent = days;
+    el("label").textContent = days === 0
+      ? "Vandaag was het onderwijs weer in het nieuws."
+      : days === 1 ? "dag sinds het onderwijs nog eens in het nieuws was"
+                   : "dagen sinds het onderwijs nog eens in het nieuws was";
+    el("sub").textContent = "Laatste vermelding: " + fmt(items[0].datum);
+  }
+  const topics = el("topics");
+  items.slice(0, 5).forEach(it => {
+    const art = document.createElement("article"); art.className = "topic";
+    const d = document.createElement("div"); d.className = "date"; d.textContent = fmt(it.datum);
+    const h = document.createElement("h3"); h.textContent = it.onderwerp;
+    const ul = document.createElement("ul"); ul.className = "links";
+    it.links.forEach(l => {
+      const li = document.createElement("li"), a = document.createElement("a");
+      a.href = l.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      a.textContent = l.site + " ↗"; li.appendChild(a); ul.appendChild(li);
+    });
+    art.append(d, h, ul); topics.appendChild(art);
+  });
+  const t = data.bijgewerkt ? Date.parse(data.bijgewerkt) : NaN;
+  if (isNaN(t) || Date.now() - t > 36 * 3600 * 1000) {
+    waarschuw("Let op: de gegevens zijn niet recent bijgewerkt, dus de teller kan te hoog staan.");
+  } else {
+    el("sub").textContent += " · bijgewerkt op " + new Date(t).toLocaleString("nl-BE", { dateStyle: "short", timeStyle: "short", timeZone: "Europe/Brussels" });
+  }
+}
+
+fetch("data.json", { cache: "no-store" })
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(toon)
+  .catch(() => waarschuw("De gegevens konden niet geladen worden."));
+</script>
+</body>
+</html>
