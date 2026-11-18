@@ -70,6 +70,27 @@ def lokaal(tag):
     return tag.rsplit("}", 1)[-1]
 
 
+def kies_link(el):
+    """Kies de artikellink: <link> met tekst (RSS) of rel=alternate/zonder rel (Atom).
+    Nooit rel=enclosure (afbeelding) of rel=self (de feed zelf)."""
+    kandidaten = []
+    for c in el:
+        if lokaal(c.tag) != "link":
+            continue
+        rel = c.attrib.get("rel", "alternate")
+        if rel != "alternate":
+            continue
+        url = (c.text or "").strip() or c.attrib.get("href", "").strip()
+        if url:
+            kandidaten.append(url)
+    if kandidaten:
+        return kandidaten[0]
+    for c in el:                      # noodoplossing: guid die een URL is
+        if lokaal(c.tag) in ("guid", "id") and (c.text or "").startswith("http"):
+            return c.text.strip()
+    return ""
+
+
 def lees_feed(url):
     req = urllib.request.Request(url, headers={"User-Agent": "OnderwijsInHetNieuwsBot/1.0"})
     with urllib.request.urlopen(req, timeout=20) as r:
@@ -79,9 +100,7 @@ def lees_feed(url):
             continue
         d = {lokaal(c.tag): c for c in el}
         titel = schoon(d["title"].text) if "title" in d else ""
-        link = ""
-        if "link" in d:
-            link = (d["link"].text or d["link"].attrib.get("href", "")).strip()
+        link = kies_link(el)
         bron = next((d[k] for k in ("description", "summary", "encoded", "content") if k in d), None)
         samen = schoon(bron.text) if bron is not None else ""
         raw = None
@@ -106,8 +125,17 @@ def parse_datum(raw):
     return dt.astimezone(BRUSSEL).date().isoformat()
 
 
+AFBEELDING = re.compile(r"\.(jpe?g|png|gif|webp)(\?|$)", re.I)
+
+
+def uitgesloten(titel, url=""):
+    """Harde uitsluitingen, enkel op titel en URL (ook bruikbaar op opgeslagen artikels)."""
+    return bool(EXCLUDE_TITEL.search(titel) or LOKAAL_TITEL.search(titel)
+                or REGIO_URL.search(url) or AFBEELDING.search(url))
+
+
 def is_onderwijs(titel, samenvatting, url=""):
-    if EXCLUDE_TITEL.search(titel) or LOKAAL_TITEL.search(titel) or REGIO_URL.search(url):
+    if uitgesloten(titel, url):
         return False
     if not LANDELIJK.search(titel + " " + samenvatting):
         return False
@@ -157,7 +185,7 @@ def bundel(artikels):
 def main():
     bestaand = json.loads(DATA.read_text(encoding="utf-8")) if DATA.exists() else {}
     artikels = {norm_url(a["url"]): a for a in bestaand.get("artikels", [])
-                if is_onderwijs(a["titel"], "", a["url"])}   # oude data opnieuw toetsen
+                if not uitgesloten(a["titel"], a["url"])}   # oude data opnieuw toetsen
     negeer = {norm_url(l) for l in NEGEER.read_text().split()} if NEGEER.exists() else set()
     nieuw, gelukt = 0, 0
 
