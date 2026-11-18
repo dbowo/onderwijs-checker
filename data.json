@@ -1,10 +1,22 @@
 {
- "bijgewerkt": "2026-11-18T06:12:59+00:00",
+ "bijgewerkt": "2026-11-18T09:12:32+00:00",
  "artikels": [
   {
    "site": "VRT NWS",
    "titel": "\"Nog lange weg te gaan\": 1 jaar geleden ontsnapte Vrije Basisschool Berchem aan ramp nadat dak van kleuterklas instortte",
    "url": "https://images.vrt.be/vrtnws_share/2026/11/17/ce65db08-f466-4802-ad23-f075b42a5a13.jpg",
+   "datum": "2026-11-18"
+  },
+  {
+   "site": "Nieuwsblad",
+   "titel": "Dit zijn jullie zestien pas verkozen kindergemeenteraadsleden: “Nadenken over wat belangrijk is voor alle kinderen van de gemeente”",
+   "url": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/aalter/dit-zijn-jullie-zestien-pas-verkozen-kindergemeenteraadsleden-nadenken-over-wat-belangrijk-is-voor-alle-kinderen-van-de-gemeente/164715620.html",
+   "datum": "2026-11-18"
+  },
+  {
+   "site": "Nieuwsblad",
+   "titel": "Leerkracht Thomas (40) van MMI in Kortemark is de beste grootkeukenkok van België: “Trots dat ik deze titel in de wacht kon slepen”",
+   "url": "https://www.nieuwsblad.be/regio/west-vlaanderen/westhoek/kortemark/leerkracht-thomas-40-van-mmi-in-kortemark-is-de-beste-grootkeukenkok-van-belgie-trots-dat-ik-deze-titel-in-de-wacht-kon-slepen/164716058.html",
    "datum": "2026-11-18"
   },
   {
@@ -75,6 +87,28 @@
   }
  ],
  "onderwerpen": [
+  {
+   "datum": "2026-11-18",
+   "onderwerp": "Dit zijn jullie zestien pas verkozen kindergemeenteraadsleden: “Nadenken over wat belangrijk is voor alle kinderen van de gemeente”",
+   "links": [
+    {
+     "site": "Nieuwsblad",
+     "url": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/aalter/dit-zijn-jullie-zestien-pas-verkozen-kindergemeenteraadsleden-nadenken-over-wat-belangrijk-is-voor-alle-kinderen-van-de-gemeente/164715620.html",
+     "titel": "Dit zijn jullie zestien pas verkozen kindergemeenteraadsleden: “Nadenken over wat belangrijk is voor alle kinderen van de gemeente”"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-18",
+   "onderwerp": "Leerkracht Thomas (40) van MMI in Kortemark is de beste grootkeukenkok van België: “Trots dat ik deze titel in de wacht kon slepen”",
+   "links": [
+    {
+     "site": "Nieuwsblad",
+     "url": "https://www.nieuwsblad.be/regio/west-vlaanderen/westhoek/kortemark/leerkracht-thomas-40-van-mmi-in-kortemark-is-de-beste-grootkeukenkok-van-belgie-trots-dat-ik-deze-titel-in-de-wacht-kon-slepen/164716058.html",
+     "titel": "Leerkracht Thomas (40) van MMI in Kortemark is de beste grootkeukenkok van België: “Trots dat ik deze titel in de wacht kon slepen”"
+    }
+   ]
+  },
   {
    "datum": "2026-11-18",
    "onderwerp": "\"Nog lange weg te gaan\": 1 jaar geleden ontsnapte Vrije Basisschool Berchem aan ramp nadat dak van kleuterklas instortte",
