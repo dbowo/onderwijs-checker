@@ -19,8 +19,8 @@ BEWAAR_DAGEN = 90
 FEEDS = {
     "VRT NWS":    ["https://www.vrt.be/vrtnws/nl.rss.articles.xml"],
     "HLN":        ["https://www.hln.be/rss.xml", "https://www.hln.be/binnenland/rss.xml"],
-    "Nieuwsblad": ["https://www.nieuwsblad.be/rss", "https://www.nieuwsblad.be/binnenland/rss"],
-    "GVA":        ["https://www.gva.be/rss", "https://www.gva.be/binnenland/rss"],
+    "Nieuwsblad": ["https://www.nieuwsblad.be/binnenland/rss"],
+    "GVA":        ["https://www.gva.be/binnenland/rss"],
 }
 
 INCLUDE = re.compile(
@@ -32,6 +32,26 @@ EXCLUDE_TITEL = re.compile(
     r"franstalig|waals|wallonië|federatie wallonië|fwb|franse gemeenschap|"
     r"indiase|amerikaanse|nederlandse scholen|tweede kamer|oekraïn|gaza|"
     r"oude school|old school|schoolslag", re.I)
+
+# Beleids- en systeemniveau: een artikel moet minstens één van deze woorden hebben
+# (titel of samenvatting), anders is het te lokaal of te vrijblijvend.
+LANDELIJK = re.compile(
+    r"minister|demir|regering|parlement|vlaams|vlaanderen|beleid|hervorm|besparing|"
+    r"staking|staakt|vakbond|acod|acv|cgsp|aloc|onderwijsnet|katholiek onderwijs|\bgo!|"
+    r"pisa|eindtermen|lerarentekort|leerplicht|inspectie|decreet|akkoord|"
+    r"schooluitval|studietoelage|tekort|enquête|rapport|cijfers|onderzoek", re.I)
+
+# Typisch lokaal of feelgood: nooit opnemen als het in de titel staat.
+LOKAAL_TITEL = re.compile(
+    r"\bjuf\b|\bjuffrouw\b|\bmeester\b|gaat op pensioen|met pensioen|afscheid|"
+    r"jubileum|huldig|schoolfeest|inzamelactie|opendeurdag|speelplaats|kermis|"
+    r"schoolreis|nieuwbouw|eerste steen", re.I)
+
+# Regionale rubrieken in de URL (HLN, Nieuwsblad, GVA). Pas gerust aan.
+REGIO_URL = re.compile(
+    r"^https?://[^/]+/(regio|lokaal|lokaal-nieuws|gemeenten|antwerpen|gent|brugge|leuven|"
+    r"mechelen|hasselt|kortrijk|oostende|aalst|sint-niklaas|waasland|kempen|limburg|"
+    r"vlaams-brabant|oost-vlaanderen|west-vlaanderen|brussel)(/|$)", re.I)
 
 STOP = set("""dat deze naar voor met van het een zijn haar hun niet ook maar meer wordt worden over
 door bij uit als dan wel geen tot nog zich ze zij wij jij hebben heeft had zal zou kan kunnen
@@ -86,8 +106,10 @@ def parse_datum(raw):
     return dt.astimezone(BRUSSEL).date().isoformat()
 
 
-def is_onderwijs(titel, samenvatting):
-    if EXCLUDE_TITEL.search(titel):
+def is_onderwijs(titel, samenvatting, url=""):
+    if EXCLUDE_TITEL.search(titel) or LOKAAL_TITEL.search(titel) or REGIO_URL.search(url):
+        return False
+    if not LANDELIJK.search(titel + " " + samenvatting):
         return False
     if INCLUDE.search(titel):
         return True
@@ -134,7 +156,8 @@ def bundel(artikels):
 
 def main():
     bestaand = json.loads(DATA.read_text(encoding="utf-8")) if DATA.exists() else {}
-    artikels = {norm_url(a["url"]): a for a in bestaand.get("artikels", [])}
+    artikels = {norm_url(a["url"]): a for a in bestaand.get("artikels", [])
+                if is_onderwijs(a["titel"], "", a["url"])}   # oude data opnieuw toetsen
     negeer = {norm_url(l) for l in NEGEER.read_text().split()} if NEGEER.exists() else set()
     nieuw, gelukt = 0, 0
 
@@ -146,7 +169,7 @@ def main():
                     datum = parse_datum(raw)
                     if not (titel and link and datum) or norm_url(link) in negeer:
                         continue
-                    if not is_onderwijs(titel, samen):
+                    if not is_onderwijs(titel, samen, link):
                         continue
                     key = norm_url(link)
                     if key not in artikels:
