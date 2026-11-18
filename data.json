@@ -1,10 +1,16 @@
 {
- "bijgewerkt": "2026-11-18T12:06:22+00:00",
+ "bijgewerkt": "2026-11-18T15:04:36+00:00",
  "artikels": [
   {
    "site": "VRT NWS",
    "titel": "Deeltijds kunstonderwijs in Gent groeit met 20 procent op 5 jaar tijd: \"Professioneel, toegankelijk en betaalbaar\"",
    "url": "https://vrtnws.be/p.ew4bGVlpB",
+   "datum": "2026-11-18"
+  },
+  {
+   "site": "HLN",
+   "titel": "“Mogen Italianen dan ook nog maar 1 keer per week pasta eten?”: De Gucht niet te spreken over nieuwe Vlaamse richtlijnen schoolmaaltijden",
+   "url": "https://www.hln.be/binnenland/mogen-italianen-dan-ook-nog-maar-1-keer-per-week-pasta-eten-de-gucht-niet-te-spreken-over-nieuwe-vlaamse-richtlijnen-schoolmaaltijden~a8da8e79/",
    "datum": "2026-11-18"
   },
   {
@@ -15,6 +21,17 @@
   }
  ],
  "onderwerpen": [
+  {
+   "datum": "2026-11-18",
+   "onderwerp": "“Mogen Italianen dan ook nog maar 1 keer per week pasta eten?”: De Gucht niet te spreken over nieuwe Vlaamse richtlijnen schoolmaaltijden",
+   "links": [
+    {
+     "site": "HLN",
+     "url": "https://www.hln.be/binnenland/mogen-italianen-dan-ook-nog-maar-1-keer-per-week-pasta-eten-de-gucht-niet-te-spreken-over-nieuwe-vlaamse-richtlijnen-schoolmaaltijden~a8da8e79/",
+     "titel": "“Mogen Italianen dan ook nog maar 1 keer per week pasta eten?”: De Gucht niet te spreken over nieuwe Vlaamse richtlijnen schoolmaaltijden"
+    }
+   ]
+  },
   {
    "datum": "2026-11-18",
    "onderwerp": "Deeltijds kunstonderwijs in Gent groeit met 20 procent op 5 jaar tijd: \"Professioneel, toegankelijk en betaalbaar\"",
