@@ -1,6 +1,12 @@
 {
- "bijgewerkt": "2026-11-18T09:30:01+00:00",
+ "bijgewerkt": "2026-11-18T12:06:22+00:00",
  "artikels": [
+  {
+   "site": "VRT NWS",
+   "titel": "Deeltijds kunstonderwijs in Gent groeit met 20 procent op 5 jaar tijd: \"Professioneel, toegankelijk en betaalbaar\"",
+   "url": "https://vrtnws.be/p.ew4bGVlpB",
+   "datum": "2026-11-18"
+  },
   {
    "site": "HLN",
    "titel": "Vlaamse studenten betogen mee tegen duurder onderwijs. “Vrije tijd? Ik moet studies combineren met drie werkdagen per week”",
@@ -9,6 +15,17 @@
   }
  ],
  "onderwerpen": [
+  {
+   "datum": "2026-11-18",
+   "onderwerp": "Deeltijds kunstonderwijs in Gent groeit met 20 procent op 5 jaar tijd: \"Professioneel, toegankelijk en betaalbaar\"",
+   "links": [
+    {
+     "site": "VRT NWS",
+     "url": "https://vrtnws.be/p.ew4bGVlpB",
+     "titel": "Deeltijds kunstonderwijs in Gent groeit met 20 procent op 5 jaar tijd: \"Professioneel, toegankelijk en betaalbaar\""
+    }
+   ]
+  },
   {
    "datum": "2026-11-17",
    "onderwerp": "Vlaamse studenten betogen mee tegen duurder onderwijs. “Vrije tijd? Ik moet studies combineren met drie werkdagen per week”",
