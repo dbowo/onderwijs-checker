@@ -39,13 +39,15 @@ LANDELIJK = re.compile(
     r"minister|demir|regering|parlement|vlaams|vlaanderen|beleid|hervorm|besparing|"
     r"staking|staakt|vakbond|acod|acv|cgsp|aloc|onderwijsnet|katholiek onderwijs|\bgo!|"
     r"pisa|eindtermen|lerarentekort|leerplicht|inspectie|decreet|akkoord|"
-    r"schooluitval|studietoelage|tekort|enquête|rapport|cijfers|onderzoek", re.I)
+    r"schooluitval|studietoelage", re.I)
 
 # Typisch lokaal of feelgood: nooit opnemen als het in de titel staat.
 LOKAAL_TITEL = re.compile(
     r"\bjuf\b|\bjuffrouw\b|\bmeester\b|gaat op pensioen|met pensioen|afscheid|"
     r"jubileum|huldig|schoolfeest|inzamelactie|opendeurdag|speelplaats|kermis|"
-    r"schoolreis|nieuwbouw|eerste steen", re.I)
+    r"schoolreis|nieuwbouw|eerste steen|"
+    r"fluo|fiets|verkeersveilig|oversteekplaats|schoolomgeving|benefiet|warmste week|"
+    r"schoolagent|kindergemeenteraad|grootkeukenkok", re.I)
 
 # Regionale rubrieken in de URL (HLN, Nieuwsblad, GVA). Pas gerust aan.
 REGIO_URL = re.compile(
