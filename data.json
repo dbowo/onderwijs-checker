@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-19T12:06:05+00:00",
+ "bijgewerkt": "2026-11-19T15:04:18+00:00",
  "artikels": [
   {
    "site": "HLN",
@@ -11,6 +11,12 @@
    "site": "HLN",
    "titel": "Kinderrechtencommissariaat waarschuwt voor onzichtbare thuiszitters: “Kinderrechten zijn geen beloning voor wie voldoet aan alle voorwaarden”",
    "url": "https://www.hln.be/binnenland/kinderrechtencommissariaat-waarschuwt-voor-onzichtbare-thuiszitters-kinderrechten-zijn-geen-beloning-voor-wie-voldoet-aan-alle-voorwaarden~a6fa53fe/",
+   "datum": "2026-11-19"
+  },
+  {
+   "site": "HLN",
+   "titel": "Opleiding basisverpleegkunde verhuist definitief naar hogescholen: “De keuze is gemaakt”",
+   "url": "https://www.hln.be/onderwijs/opleiding-basisverpleegkunde-verhuist-definitief-naar-hogescholen-de-keuze-is-gemaakt~a54e1853/",
    "datum": "2026-11-19"
   },
   {
@@ -41,6 +47,17 @@
      "site": "HLN",
      "url": "https://www.hln.be/binnenland/kinderrechtencommissariaat-waarschuwt-voor-onzichtbare-thuiszitters~a6fa53fe/",
      "titel": "Kinderrechtencommissariaat waarschuwt voor onzichtbare thuiszitters"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-19",
+   "onderwerp": "Opleiding basisverpleegkunde verhuist definitief naar hogescholen: “De keuze is gemaakt”",
+   "links": [
+    {
+     "site": "HLN",
+     "url": "https://www.hln.be/onderwijs/opleiding-basisverpleegkunde-verhuist-definitief-naar-hogescholen-de-keuze-is-gemaakt~a54e1853/",
+     "titel": "Opleiding basisverpleegkunde verhuist definitief naar hogescholen: “De keuze is gemaakt”"
     }
    ]
   },
