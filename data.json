@@ -1,6 +1,12 @@
 {
- "bijgewerkt": "2026-11-18T21:00:17+00:00",
+ "bijgewerkt": "2026-11-19T06:11:15+00:00",
  "artikels": [
+  {
+   "site": "HLN",
+   "titel": "Kinderrechtencommissariaat waarschuwt voor onzichtbare thuiszitters",
+   "url": "https://www.hln.be/binnenland/kinderrechtencommissariaat-waarschuwt-voor-onzichtbare-thuiszitters~a6fa53fe/",
+   "datum": "2026-11-19"
+  },
   {
    "site": "VRT NWS",
    "titel": "Deeltijds kunstonderwijs in Gent groeit met 20 procent op 5 jaar tijd: \"Professioneel, toegankelijk en betaalbaar\"",
@@ -21,6 +27,17 @@
   }
  ],
  "onderwerpen": [
+  {
+   "datum": "2026-11-19",
+   "onderwerp": "Kinderrechtencommissariaat waarschuwt voor onzichtbare thuiszitters",
+   "links": [
+    {
+     "site": "HLN",
+     "url": "https://www.hln.be/binnenland/kinderrechtencommissariaat-waarschuwt-voor-onzichtbare-thuiszitters~a6fa53fe/",
+     "titel": "Kinderrechtencommissariaat waarschuwt voor onzichtbare thuiszitters"
+    }
+   ]
+  },
   {
    "datum": "2026-11-18",
    "onderwerp": "“Mogen Italianen dan ook nog maar 1 keer per week pasta eten?”: De Gucht niet te spreken over nieuwe Vlaamse richtlijnen schoolmaaltijden",
