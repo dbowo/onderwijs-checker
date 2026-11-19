@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-19T18:00:02+00:00",
+ "bijgewerkt": "2026-11-19T20:59:54+00:00",
  "artikels": [
   {
    "site": "HLN",
@@ -17,6 +17,12 @@
    "site": "HLN",
    "titel": "Opleiding basisverpleegkunde verhuist definitief naar hogescholen: “De keuze is gemaakt”",
    "url": "https://www.hln.be/onderwijs/opleiding-basisverpleegkunde-verhuist-definitief-naar-hogescholen-de-keuze-is-gemaakt~a54e1853/",
+   "datum": "2026-11-19"
+  },
+  {
+   "site": "VRT NWS",
+   "titel": "Middelbare school in Kortrijk met 600 leerlingen dicht door groot waterlek dat elektriciteitspanne veroorzaakt",
+   "url": "https://vrtnws.be/p.5waxo9ZbR",
    "datum": "2026-11-19"
   },
   {
@@ -58,6 +64,17 @@
      "site": "HLN",
      "url": "https://www.hln.be/onderwijs/opleiding-basisverpleegkunde-verhuist-definitief-naar-hogescholen-de-keuze-is-gemaakt~a54e1853/",
      "titel": "Opleiding basisverpleegkunde verhuist definitief naar hogescholen: “De keuze is gemaakt”"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-19",
+   "onderwerp": "Middelbare school in Kortrijk met 600 leerlingen dicht door groot waterlek dat elektriciteitspanne veroorzaakt",
+   "links": [
+    {
+     "site": "VRT NWS",
+     "url": "https://vrtnws.be/p.5waxo9ZbR",
+     "titel": "Middelbare school in Kortrijk met 600 leerlingen dicht door groot waterlek dat elektriciteitspanne veroorzaakt"
     }
    ]
   },
