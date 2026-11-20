@@ -1,10 +1,16 @@
 {
- "bijgewerkt": "2026-11-20T12:04:39+00:00",
+ "bijgewerkt": "2026-11-20T15:02:17+00:00",
  "artikels": [
   {
    "site": "VRT NWS",
    "titel": "Hogeschool UCLL deelt aan 100 scholen in Limburg en Vlaams-Brabant lespakketten uit: \"Kinderen hebben het recht gehoord te worden\"",
    "url": "https://vrtnws.be/p.M9mWAap9q",
+   "datum": "2026-11-20"
+  },
+  {
+   "site": "VRT NWS",
+   "titel": "Waterlek opgelost: 900 leerlingen van Kortrijkse scholen kunnen maandag opnieuw naar school",
+   "url": "https://vrtnws.be/p.ZWKB5PjD3",
    "datum": "2026-11-20"
   },
   {
@@ -53,6 +59,17 @@
  "onderwerpen": [
   {
    "datum": "2026-11-20",
+   "onderwerp": "Middelbare school in Kortrijk met 600 leerlingen dicht door groot waterlek dat elektriciteitspanne veroorzaakt",
+   "links": [
+    {
+     "site": "VRT NWS",
+     "url": "https://vrtnws.be/p.5waxo9ZbR",
+     "titel": "Middelbare school in Kortrijk met 600 leerlingen dicht door groot waterlek dat elektriciteitspanne veroorzaakt"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-20",
    "onderwerp": "Hogeschool UCLL deelt aan 100 scholen in Limburg en Vlaams-Brabant lespakketten uit: \"Kinderen hebben het recht gehoord te worden\"",
    "links": [
     {
@@ -81,17 +98,6 @@
      "site": "HLN",
      "url": "https://www.hln.be/onderwijs/opleiding-basisverpleegkunde-verhuist-definitief-naar-hogescholen-de-keuze-is-gemaakt~a54e1853/",
      "titel": "Opleiding basisverpleegkunde verhuist definitief naar hogescholen: “De keuze is gemaakt”"
-    }
-   ]
-  },
-  {
-   "datum": "2026-11-19",
-   "onderwerp": "Middelbare school in Kortrijk met 600 leerlingen dicht door groot waterlek dat elektriciteitspanne veroorzaakt",
-   "links": [
-    {
-     "site": "VRT NWS",
-     "url": "https://vrtnws.be/p.5waxo9ZbR",
-     "titel": "Middelbare school in Kortrijk met 600 leerlingen dicht door groot waterlek dat elektriciteitspanne veroorzaakt"
     }
    ]
   },
