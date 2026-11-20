@@ -1,6 +1,12 @@
 {
- "bijgewerkt": "2026-11-20T09:12:05+00:00",
+ "bijgewerkt": "2026-11-20T12:04:39+00:00",
  "artikels": [
+  {
+   "site": "VRT NWS",
+   "titel": "Hogeschool UCLL deelt aan 100 scholen in Limburg en Vlaams-Brabant lespakketten uit: \"Kinderen hebben het recht gehoord te worden\"",
+   "url": "https://vrtnws.be/p.M9mWAap9q",
+   "datum": "2026-11-20"
+  },
   {
    "site": "HLN",
    "titel": "Kinderrechtencommissariaat waarschuwt voor onzichtbare thuiszitters",
@@ -45,6 +51,17 @@
   }
  ],
  "onderwerpen": [
+  {
+   "datum": "2026-11-20",
+   "onderwerp": "Hogeschool UCLL deelt aan 100 scholen in Limburg en Vlaams-Brabant lespakketten uit: \"Kinderen hebben het recht gehoord te worden\"",
+   "links": [
+    {
+     "site": "VRT NWS",
+     "url": "https://vrtnws.be/p.M9mWAap9q",
+     "titel": "Hogeschool UCLL deelt aan 100 scholen in Limburg en Vlaams-Brabant lespakketten uit: \"Kinderen hebben het recht gehoord te worden\""
+    }
+   ]
+  },
   {
    "datum": "2026-11-19",
    "onderwerp": "Kinderrechtencommissariaat waarschuwt voor onzichtbare thuiszitters",
