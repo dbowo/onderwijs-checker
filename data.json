@@ -1,6 +1,12 @@
 {
- "bijgewerkt": "2026-11-22T08:55:32+00:00",
+ "bijgewerkt": "2026-11-22T11:50:43+00:00",
  "artikels": [
+  {
+   "site": "HLN",
+   "titel": "Ruim helft van startende voedingszaken krijgt ongunstig resultaat bij eerste inspectie voor voedselveiligheid",
+   "url": "https://www.hln.be/economie/ruim-helft-van-startende-voedingszaken-krijgt-ongunstig-resultaat-bij-eerste-inspectie-voor-voedselveiligheid~ab19d8e2/",
+   "datum": "2026-11-22"
+  },
   {
    "site": "VRT NWS",
    "titel": "Hogeschool UCLL deelt aan 100 scholen in Limburg en Vlaams-Brabant lespakketten uit: \"Kinderen hebben het recht gehoord te worden\"",
@@ -57,6 +63,17 @@
   }
  ],
  "onderwerpen": [
+  {
+   "datum": "2026-11-22",
+   "onderwerp": "Ruim helft van startende voedingszaken krijgt ongunstig resultaat bij eerste inspectie voor voedselveiligheid",
+   "links": [
+    {
+     "site": "HLN",
+     "url": "https://www.hln.be/economie/ruim-helft-van-startende-voedingszaken-krijgt-ongunstig-resultaat-bij-eerste-inspectie-voor-voedselveiligheid~ab19d8e2/",
+     "titel": "Ruim helft van startende voedingszaken krijgt ongunstig resultaat bij eerste inspectie voor voedselveiligheid"
+    }
+   ]
+  },
   {
    "datum": "2026-11-20",
    "onderwerp": "Middelbare school in Kortrijk met 600 leerlingen dicht door groot waterlek dat elektriciteitspanne veroorzaakt",
