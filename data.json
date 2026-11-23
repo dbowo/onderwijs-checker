@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-23T12:01:31+00:00",
+ "bijgewerkt": "2026-11-23T15:14:13+00:00",
  "artikels": [
   {
    "site": "HLN",
@@ -17,6 +17,18 @@
    "site": "HLN",
    "titel": "Twee leerlingen gewond bij steekincident op school in Kruibeke",
    "url": "https://www.hln.be/beveren-kruibeke-zwijndrecht/twee-leerlingen-gewond-bij-steekincident-op-school-in-kruibeke~acd66298/",
+   "datum": "2026-11-23"
+  },
+  {
+   "site": "VRT NWS",
+   "titel": "Sint-Martinusscholen Herk-de-Stad plannen nieuwe school op revalidatiesite Sint-Ursula: \"Onderwijs en zorg samenbrengen\"",
+   "url": "https://vrtnws.be/p.M9mk0Vjpy",
+   "datum": "2026-11-23"
+  },
+  {
+   "site": "VRT NWS",
+   "titel": "Twee leerlingen gewond na steekincident op school in Bazel, parket opent onderzoek",
+   "url": "https://vrtnws.be/p.ZWK48pdvl",
    "datum": "2026-11-23"
   },
   {
@@ -94,12 +106,28 @@
   },
   {
    "datum": "2026-11-23",
-   "onderwerp": "Twee leerlingen gewond bij steekincident op school in Kruibeke",
+   "onderwerp": "Twee leerlingen gewond na steekincident op school in Bazel, parket opent onderzoek",
    "links": [
     {
      "site": "HLN",
      "url": "https://www.hln.be/beveren-kruibeke-zwijndrecht/twee-leerlingen-gewond-bij-steekincident-op-school-in-kruibeke~acd66298/",
      "titel": "Twee leerlingen gewond bij steekincident op school in Kruibeke"
+    },
+    {
+     "site": "VRT NWS",
+     "url": "https://vrtnws.be/p.ZWK48pdvl",
+     "titel": "Twee leerlingen gewond na steekincident op school in Bazel, parket opent onderzoek"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-23",
+   "onderwerp": "Sint-Martinusscholen Herk-de-Stad plannen nieuwe school op revalidatiesite Sint-Ursula: \"Onderwijs en zorg samenbrengen\"",
+   "links": [
+    {
+     "site": "VRT NWS",
+     "url": "https://vrtnws.be/p.M9mk0Vjpy",
+     "titel": "Sint-Martinusscholen Herk-de-Stad plannen nieuwe school op revalidatiesite Sint-Ursula: \"Onderwijs en zorg samenbrengen\""
     }
    ]
   },
