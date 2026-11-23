@@ -1,6 +1,12 @@
 {
- "bijgewerkt": "2026-11-22T20:52:34+00:00",
+ "bijgewerkt": "2026-11-23T06:13:18+00:00",
  "artikels": [
+  {
+   "site": "HLN",
+   "titel": "Deze reizigers raken vandaag niet thuis, op school of op het werk door staking luchtverkeersleiders: “Onze verlofdagen zijn op, dus dit kost ons loon”",
+   "url": "https://www.hln.be/binnenland/deze-reizigers-raken-vandaag-niet-thuis-op-school-of-op-het-werk-door-staking-luchtverkeersleiders-onze-verlofdagen-zijn-op-dus-dit-kost-ons-loon~a5db8c4d/",
+   "datum": "2026-11-23"
+  },
   {
    "site": "HLN",
    "titel": "Ruim helft van startende voedingszaken krijgt ongunstig resultaat bij eerste inspectie voor voedselveiligheid",
@@ -63,6 +69,17 @@
   }
  ],
  "onderwerpen": [
+  {
+   "datum": "2026-11-23",
+   "onderwerp": "Deze reizigers raken vandaag niet thuis, op school of op het werk door staking luchtverkeersleiders: “Onze verlofdagen zijn op, dus dit kost ons loon”",
+   "links": [
+    {
+     "site": "HLN",
+     "url": "https://www.hln.be/binnenland/deze-reizigers-raken-vandaag-niet-thuis-op-school-of-op-het-werk-door-staking-luchtverkeersleiders-onze-verlofdagen-zijn-op-dus-dit-kost-ons-loon~a5db8c4d/",
+     "titel": "Deze reizigers raken vandaag niet thuis, op school of op het werk door staking luchtverkeersleiders: “Onze verlofdagen zijn op, dus dit kost ons loon”"
+    }
+   ]
+  },
   {
    "datum": "2026-11-22",
    "onderwerp": "Ruim helft van startende voedingszaken krijgt ongunstig resultaat bij eerste inspectie voor voedselveiligheid",
