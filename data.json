@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-23T09:31:59+00:00",
+ "bijgewerkt": "2026-11-23T12:01:31+00:00",
  "artikels": [
   {
    "site": "HLN",
@@ -11,6 +11,12 @@
    "site": "HLN",
    "titel": "Deze reizigers raken vandaag niet thuis, op school of op het werk: “En onze verlofdagen zijn op”",
    "url": "https://www.hln.be/binnenland/deze-reizigers-raken-vandaag-niet-thuis-op-school-of-op-het-werk-en-onze-verlofdagen-zijn-op~a5db8c4d/",
+   "datum": "2026-11-23"
+  },
+  {
+   "site": "HLN",
+   "titel": "Twee leerlingen gewond bij steekincident op school in Kruibeke",
+   "url": "https://www.hln.be/beveren-kruibeke-zwijndrecht/twee-leerlingen-gewond-bij-steekincident-op-school-in-kruibeke~acd66298/",
    "datum": "2026-11-23"
   },
   {
@@ -83,6 +89,17 @@
      "site": "HLN",
      "url": "https://www.hln.be/binnenland/deze-reizigers-raken-vandaag-niet-thuis-op-school-of-op-het-werk-door-staking-luchtverkeersleiders-onze-verlofdagen-zijn-op-dus-dit-kost-ons-loon~a5db8c4d/",
      "titel": "Deze reizigers raken vandaag niet thuis, op school of op het werk door staking luchtverkeersleiders: “Onze verlofdagen zijn op, dus dit kost ons loon”"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-23",
+   "onderwerp": "Twee leerlingen gewond bij steekincident op school in Kruibeke",
+   "links": [
+    {
+     "site": "HLN",
+     "url": "https://www.hln.be/beveren-kruibeke-zwijndrecht/twee-leerlingen-gewond-bij-steekincident-op-school-in-kruibeke~acd66298/",
+     "titel": "Twee leerlingen gewond bij steekincident op school in Kruibeke"
     }
    ]
   },
