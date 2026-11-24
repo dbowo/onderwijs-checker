@@ -1,6 +1,18 @@
 {
- "bijgewerkt": "2026-11-24T06:06:48+00:00",
+ "bijgewerkt": "2026-11-24T09:16:36+00:00",
  "artikels": [
+  {
+   "site": "VRT NWS",
+   "titel": "Nieuw dak, extra klaslokalen en buitenklassen: Diestse gemeentescholen krijgen opknapbeurt na overstap naar GO!",
+   "url": "https://vrtnws.be/p.xZY8dB74e",
+   "datum": "2026-11-24"
+  },
+  {
+   "site": "VRT NWS",
+   "titel": "Leerlingen GO! atheneum Geraardsbergen winnen wedstrijd van Belgische marine in Zeebrugge",
+   "url": "https://vrtnws.be/p.11pqxAamq",
+   "datum": "2026-11-24"
+  },
   {
    "site": "HLN",
    "titel": "Deze reizigers raken vandaag niet thuis, op school of op het werk door staking luchtverkeersleiders: “Onze verlofdagen zijn op, dus dit kost ons loon”",
@@ -93,6 +105,28 @@
   }
  ],
  "onderwerpen": [
+  {
+   "datum": "2026-11-24",
+   "onderwerp": "Nieuw dak, extra klaslokalen en buitenklassen: Diestse gemeentescholen krijgen opknapbeurt na overstap naar GO!",
+   "links": [
+    {
+     "site": "VRT NWS",
+     "url": "https://vrtnws.be/p.xZY8dB74e",
+     "titel": "Nieuw dak, extra klaslokalen en buitenklassen: Diestse gemeentescholen krijgen opknapbeurt na overstap naar GO!"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-24",
+   "onderwerp": "Leerlingen GO! atheneum Geraardsbergen winnen wedstrijd van Belgische marine in Zeebrugge",
+   "links": [
+    {
+     "site": "VRT NWS",
+     "url": "https://vrtnws.be/p.11pqxAamq",
+     "titel": "Leerlingen GO! atheneum Geraardsbergen winnen wedstrijd van Belgische marine in Zeebrugge"
+    }
+   ]
+  },
   {
    "datum": "2026-11-23",
    "onderwerp": "Deze reizigers raken vandaag niet thuis, op school of op het werk door staking luchtverkeersleiders: “Onze verlofdagen zijn op, dus dit kost ons loon”",
