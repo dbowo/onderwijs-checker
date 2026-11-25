@@ -1,6 +1,18 @@
 {
- "bijgewerkt": "2026-11-24T21:02:05+00:00",
+ "bijgewerkt": "2026-11-25T06:06:51+00:00",
  "artikels": [
+  {
+   "site": "HLN",
+   "titel": "Economische Inspectie neemt duizenden gevallen van phishing onder de loep in onderzoek naar aanpak 6 grootste Belgische banken",
+   "url": "https://www.hln.be/binnenland/economische-inspectie-neemt-duizenden-gevallen-van-phishing-onder-de-loep-in-onderzoek-naar-aanpak-6-grootste-belgische-banken~a933aa5e/",
+   "datum": "2026-11-25"
+  },
+  {
+   "site": "HLN",
+   "titel": "Schoolvoorbeeld van deportatiebeleid Trump vertrekt: “Migrant Abrego Garcia verlaat VS vrijwillig”",
+   "url": "https://www.hln.be/buitenland/schoolvoorbeeld-van-deportatiebeleid-trump-vertrekt-migrant-abrego-garcia-verlaat-vs-vrijwillig~a79c6d94/",
+   "datum": "2026-11-25"
+  },
   {
    "site": "VRT NWS",
    "titel": "Nieuw dak, extra klaslokalen en buitenklassen: Diestse gemeentescholen krijgen opknapbeurt na overstap naar GO!",
@@ -105,6 +117,28 @@
   }
  ],
  "onderwerpen": [
+  {
+   "datum": "2026-11-25",
+   "onderwerp": "Economische Inspectie neemt duizenden gevallen van phishing onder de loep in onderzoek naar aanpak 6 grootste Belgische banken",
+   "links": [
+    {
+     "site": "HLN",
+     "url": "https://www.hln.be/binnenland/economische-inspectie-neemt-duizenden-gevallen-van-phishing-onder-de-loep-in-onderzoek-naar-aanpak-6-grootste-belgische-banken~a933aa5e/",
+     "titel": "Economische Inspectie neemt duizenden gevallen van phishing onder de loep in onderzoek naar aanpak 6 grootste Belgische banken"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-25",
+   "onderwerp": "Schoolvoorbeeld van deportatiebeleid Trump vertrekt: “Migrant Abrego Garcia verlaat VS vrijwillig”",
+   "links": [
+    {
+     "site": "HLN",
+     "url": "https://www.hln.be/buitenland/schoolvoorbeeld-van-deportatiebeleid-trump-vertrekt-migrant-abrego-garcia-verlaat-vs-vrijwillig~a79c6d94/",
+     "titel": "Schoolvoorbeeld van deportatiebeleid Trump vertrekt: “Migrant Abrego Garcia verlaat VS vrijwillig”"
+    }
+   ]
+  },
   {
    "datum": "2026-11-24",
    "onderwerp": "Nieuw dak, extra klaslokalen en buitenklassen: Diestse gemeentescholen krijgen opknapbeurt na overstap naar GO!",
