@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-25T09:20:33+00:00",
+ "bijgewerkt": "2026-11-25T12:11:04+00:00",
  "artikels": [
   {
    "site": "HLN",
@@ -17,6 +17,18 @@
    "site": "VRT NWS",
    "titel": "Economische Inspectie neemt 6 banken onder de loep: betaalden ze klanten terug na phishing?",
    "url": "https://vrtnws.be/p.qENMJl3xV",
+   "datum": "2026-11-25"
+  },
+  {
+   "site": "Nieuwsblad",
+   "titel": "School schakelt rest van de week over op afstandsonderwijs door tuchtproblemen: “Lesgeven zit er niet meer in”",
+   "url": "https://www.nieuwsblad.be/binnenland/school-schakelt-rest-van-de-week-over-op-afstandsonderwijs-door-tuchtproblemen-lesgeven-zit-er-niet-meer-in/165069421.html",
+   "datum": "2026-11-25"
+  },
+  {
+   "site": "GVA",
+   "titel": "School schakelt rest van de week over op afstandsonderwijs door tuchtproblemen: “Lesgeven zit er niet meer in”",
+   "url": "https://www.gva.be/binnenland/school-schakelt-rest-van-de-week-over-op-afstandsonderwijs-door-tuchtproblemen-lesgeven-zit-er-niet-meer-in/165071229.html",
    "datum": "2026-11-25"
   },
   {
@@ -123,6 +135,22 @@
   }
  ],
  "onderwerpen": [
+  {
+   "datum": "2026-11-25",
+   "onderwerp": "School schakelt rest van de week over op afstandsonderwijs door tuchtproblemen: “Lesgeven zit er niet meer in”",
+   "links": [
+    {
+     "site": "GVA",
+     "url": "https://www.gva.be/binnenland/school-schakelt-rest-van-de-week-over-op-afstandsonderwijs-door-tuchtproblemen-lesgeven-zit-er-niet-meer-in/165071229.html",
+     "titel": "School schakelt rest van de week over op afstandsonderwijs door tuchtproblemen: “Lesgeven zit er niet meer in”"
+    },
+    {
+     "site": "Nieuwsblad",
+     "url": "https://www.nieuwsblad.be/binnenland/school-schakelt-rest-van-de-week-over-op-afstandsonderwijs-door-tuchtproblemen-lesgeven-zit-er-niet-meer-in/165069421.html",
+     "titel": "School schakelt rest van de week over op afstandsonderwijs door tuchtproblemen: “Lesgeven zit er niet meer in”"
+    }
+   ]
+  },
   {
    "datum": "2026-11-25",
    "onderwerp": "Economische Inspectie neemt 6 banken onder de loep: betaalden ze klanten terug na phishing?",
