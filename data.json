@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-25T06:06:51+00:00",
+ "bijgewerkt": "2026-11-25T09:20:33+00:00",
  "artikels": [
   {
    "site": "HLN",
@@ -11,6 +11,12 @@
    "site": "HLN",
    "titel": "Schoolvoorbeeld van deportatiebeleid Trump vertrekt: “Migrant Abrego Garcia verlaat VS vrijwillig”",
    "url": "https://www.hln.be/buitenland/schoolvoorbeeld-van-deportatiebeleid-trump-vertrekt-migrant-abrego-garcia-verlaat-vs-vrijwillig~a79c6d94/",
+   "datum": "2026-11-25"
+  },
+  {
+   "site": "VRT NWS",
+   "titel": "Economische Inspectie neemt 6 banken onder de loep: betaalden ze klanten terug na phishing?",
+   "url": "https://vrtnws.be/p.qENMJl3xV",
    "datum": "2026-11-25"
   },
   {
@@ -119,12 +125,17 @@
  "onderwerpen": [
   {
    "datum": "2026-11-25",
-   "onderwerp": "Economische Inspectie neemt duizenden gevallen van phishing onder de loep in onderzoek naar aanpak 6 grootste Belgische banken",
+   "onderwerp": "Economische Inspectie neemt 6 banken onder de loep: betaalden ze klanten terug na phishing?",
    "links": [
     {
      "site": "HLN",
      "url": "https://www.hln.be/binnenland/economische-inspectie-neemt-duizenden-gevallen-van-phishing-onder-de-loep-in-onderzoek-naar-aanpak-6-grootste-belgische-banken~a933aa5e/",
      "titel": "Economische Inspectie neemt duizenden gevallen van phishing onder de loep in onderzoek naar aanpak 6 grootste Belgische banken"
+    },
+    {
+     "site": "VRT NWS",
+     "url": "https://vrtnws.be/p.qENMJl3xV",
+     "titel": "Economische Inspectie neemt 6 banken onder de loep: betaalden ze klanten terug na phishing?"
     }
    ]
   },
