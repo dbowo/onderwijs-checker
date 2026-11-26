@@ -1,6 +1,12 @@
 {
- "bijgewerkt": "2026-11-26T17:59:58+00:00",
+ "bijgewerkt": "2026-11-26T21:02:36+00:00",
  "artikels": [
+  {
+   "site": "VRT NWS",
+   "titel": "Met verkoop Godelieveschool en lening wil Tielt Vlaamse besparing opvangen: \"Geen projecten schrappen\"",
+   "url": "https://vrtnws.be/p.ew4L1nO3q",
+   "datum": "2026-11-26"
+  },
   {
    "site": "HLN",
    "titel": "Economische Inspectie neemt duizenden gevallen van phishing onder de loep in onderzoek naar aanpak 6 grootste Belgische banken",
@@ -135,6 +141,17 @@
   }
  ],
  "onderwerpen": [
+  {
+   "datum": "2026-11-26",
+   "onderwerp": "Met verkoop Godelieveschool en lening wil Tielt Vlaamse besparing opvangen: \"Geen projecten schrappen\"",
+   "links": [
+    {
+     "site": "VRT NWS",
+     "url": "https://vrtnws.be/p.ew4L1nO3q",
+     "titel": "Met verkoop Godelieveschool en lening wil Tielt Vlaamse besparing opvangen: \"Geen projecten schrappen\""
+    }
+   ]
+  },
   {
    "datum": "2026-11-25",
    "onderwerp": "School schakelt rest van de week over op afstandsonderwijs door tuchtproblemen: “Lesgeven zit er niet meer in”",
