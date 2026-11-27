@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-27T17:59:18+00:00",
+ "bijgewerkt": "2026-11-27T21:04:55+00:00",
  "artikels": [
   {
    "site": "Nieuwsblad",
@@ -23,6 +23,12 @@
    "site": "GVA",
    "titel": "Schooldirecteurs kijken met grote ogen naar uit de hand gelopen pesterijen in Genkse school: “Soms blijkt het slachtoffer de pester te zijn”",
    "url": "https://www.gva.be/binnenland/schooldirecteurs-kijken-met-grote-ogen-naar-uit-de-hand-gelopen-pesterijen-in-genkse-school-soms-blijkt-het-slachtoffer-de-pester-te-zijn/165174410.html",
+   "datum": "2026-11-27"
+  },
+  {
+   "site": "VRT NWS",
+   "titel": "\"Een stap achteruit in beschaving\": Demir wil strenger optreden tegen minder tolerantie voor holebi's in onderwijs",
+   "url": "https://vrtnws.be/p.Ovk5mB1eZ",
    "datum": "2026-11-27"
   },
   {
@@ -194,6 +200,17 @@
      "site": "Nieuwsblad",
      "url": "https://www.nieuwsblad.be/onderwijs/schooldirecteurs-kijken-met-grote-ogen-naar-uit-de-hand-gelopen-pesterijen-in-genkse-school-soms-blijkt-het-slachtoffer-de-pester-te-zijn/165151037.html",
      "titel": "Schooldirecteurs kijken met grote ogen naar uit de hand gelopen pesterijen in Genkse school: “Soms blijkt het slachtoffer de pester te zijn”"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-27",
+   "onderwerp": "\"Een stap achteruit in beschaving\": Demir wil strenger optreden tegen minder tolerantie voor holebi's in onderwijs",
+   "links": [
+    {
+     "site": "VRT NWS",
+     "url": "https://vrtnws.be/p.Ovk5mB1eZ",
+     "titel": "\"Een stap achteruit in beschaving\": Demir wil strenger optreden tegen minder tolerantie voor holebi's in onderwijs"
     }
    ]
   },
