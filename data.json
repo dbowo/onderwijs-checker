@@ -1,6 +1,18 @@
 {
- "bijgewerkt": "2026-11-26T21:02:36+00:00",
+ "bijgewerkt": "2026-11-27T06:10:32+00:00",
  "artikels": [
+  {
+   "site": "Nieuwsblad",
+   "titel": "“De leider die zijn soldaatjes vooruitstuurt: dat moment blijft op mijn netvlies gebrand”: schooldirecteurs over moeilijke strijd tegen pesten",
+   "url": "https://www.nieuwsblad.be/onderwijs/de-leider-die-zijn-soldaatjes-vooruitstuurt-dat-moment-blijft-op-mijn-netvlies-gebrand-schooldirecteurs-over-moeilijke-strijd-tegen-pesten/165151037.html",
+   "datum": "2026-11-27"
+  },
+  {
+   "site": "GVA",
+   "titel": "“De leider die zijn soldaatjes vooruitstuurt: dat moment blijft op mijn netvlies gebrand”: schooldirecteurs over moeilijke strijd tegen pesten",
+   "url": "https://www.gva.be/binnenland/de-leider-die-zijn-soldaatjes-vooruitstuurt-dat-moment-blijft-op-mijn-netvlies-gebrand-schooldirecteurs-over-moeilijke-strijd-tegen-pesten/165174410.html",
+   "datum": "2026-11-27"
+  },
   {
    "site": "VRT NWS",
    "titel": "Met verkoop Godelieveschool en lening wil Tielt Vlaamse besparing opvangen: \"Geen projecten schrappen\"",
@@ -141,6 +153,22 @@
   }
  ],
  "onderwerpen": [
+  {
+   "datum": "2026-11-27",
+   "onderwerp": "“De leider die zijn soldaatjes vooruitstuurt: dat moment blijft op mijn netvlies gebrand”: schooldirecteurs over moeilijke strijd tegen pesten",
+   "links": [
+    {
+     "site": "GVA",
+     "url": "https://www.gva.be/binnenland/de-leider-die-zijn-soldaatjes-vooruitstuurt-dat-moment-blijft-op-mijn-netvlies-gebrand-schooldirecteurs-over-moeilijke-strijd-tegen-pesten/165174410.html",
+     "titel": "“De leider die zijn soldaatjes vooruitstuurt: dat moment blijft op mijn netvlies gebrand”: schooldirecteurs over moeilijke strijd tegen pesten"
+    },
+    {
+     "site": "Nieuwsblad",
+     "url": "https://www.nieuwsblad.be/onderwijs/de-leider-die-zijn-soldaatjes-vooruitstuurt-dat-moment-blijft-op-mijn-netvlies-gebrand-schooldirecteurs-over-moeilijke-strijd-tegen-pesten/165151037.html",
+     "titel": "“De leider die zijn soldaatjes vooruitstuurt: dat moment blijft op mijn netvlies gebrand”: schooldirecteurs over moeilijke strijd tegen pesten"
+    }
+   ]
+  },
   {
    "datum": "2026-11-26",
    "onderwerp": "Met verkoop Godelieveschool en lening wil Tielt Vlaamse besparing opvangen: \"Geen projecten schrappen\"",
