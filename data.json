@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-27T09:18:03+00:00",
+ "bijgewerkt": "2026-11-27T12:04:24+00:00",
  "artikels": [
   {
    "site": "Nieuwsblad",
@@ -11,6 +11,18 @@
    "site": "GVA",
    "titel": "“De leider die zijn soldaatjes vooruitstuurt: dat moment blijft op mijn netvlies gebrand”: schooldirecteurs over moeilijke strijd tegen pesten",
    "url": "https://www.gva.be/binnenland/de-leider-die-zijn-soldaatjes-vooruitstuurt-dat-moment-blijft-op-mijn-netvlies-gebrand-schooldirecteurs-over-moeilijke-strijd-tegen-pesten/165174410.html",
+   "datum": "2026-11-27"
+  },
+  {
+   "site": "Nieuwsblad",
+   "titel": "Schooldirecteurs kijken met grote ogen naar uit de hand gelopen pesterijen in Genkse school: “Soms blijkt het slachtoffer de pester te zijn”",
+   "url": "https://www.nieuwsblad.be/onderwijs/schooldirecteurs-kijken-met-grote-ogen-naar-uit-de-hand-gelopen-pesterijen-in-genkse-school-soms-blijkt-het-slachtoffer-de-pester-te-zijn/165151037.html",
+   "datum": "2026-11-27"
+  },
+  {
+   "site": "GVA",
+   "titel": "Schooldirecteurs kijken met grote ogen naar uit de hand gelopen pesterijen in Genkse school: “Soms blijkt het slachtoffer de pester te zijn”",
+   "url": "https://www.gva.be/binnenland/schooldirecteurs-kijken-met-grote-ogen-naar-uit-de-hand-gelopen-pesterijen-in-genkse-school-soms-blijkt-het-slachtoffer-de-pester-te-zijn/165174410.html",
    "datum": "2026-11-27"
   },
   {
@@ -166,6 +178,22 @@
      "site": "Nieuwsblad",
      "url": "https://www.nieuwsblad.be/onderwijs/de-leider-die-zijn-soldaatjes-vooruitstuurt-dat-moment-blijft-op-mijn-netvlies-gebrand-schooldirecteurs-over-moeilijke-strijd-tegen-pesten/165151037.html",
      "titel": "“De leider die zijn soldaatjes vooruitstuurt: dat moment blijft op mijn netvlies gebrand”: schooldirecteurs over moeilijke strijd tegen pesten"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-27",
+   "onderwerp": "Schooldirecteurs kijken met grote ogen naar uit de hand gelopen pesterijen in Genkse school: “Soms blijkt het slachtoffer de pester te zijn”",
+   "links": [
+    {
+     "site": "GVA",
+     "url": "https://www.gva.be/binnenland/schooldirecteurs-kijken-met-grote-ogen-naar-uit-de-hand-gelopen-pesterijen-in-genkse-school-soms-blijkt-het-slachtoffer-de-pester-te-zijn/165174410.html",
+     "titel": "Schooldirecteurs kijken met grote ogen naar uit de hand gelopen pesterijen in Genkse school: “Soms blijkt het slachtoffer de pester te zijn”"
+    },
+    {
+     "site": "Nieuwsblad",
+     "url": "https://www.nieuwsblad.be/onderwijs/schooldirecteurs-kijken-met-grote-ogen-naar-uit-de-hand-gelopen-pesterijen-in-genkse-school-soms-blijkt-het-slachtoffer-de-pester-te-zijn/165151037.html",
+     "titel": "Schooldirecteurs kijken met grote ogen naar uit de hand gelopen pesterijen in Genkse school: “Soms blijkt het slachtoffer de pester te zijn”"
     }
    ]
   },
